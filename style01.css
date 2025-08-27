@@ -1,0 +1,20 @@
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  color: #8c06a7;
+}
+
+.controls label {
+  font-weight: bold;
+}
+
+table {
+  background: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+}

@@ -13,7 +13,7 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
   }
 
   try {
-    const response = await fetch(`https://randomuser.me/api/?results=${count}`);
+    const response = await fetch(`http://localhost:3001/api/?results=${count}`);
     if (!response.ok) throw new Error("API request failed");
 
     const data = await response.json();

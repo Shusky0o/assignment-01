@@ -1,0 +1,33 @@
+{
+  "name": "assignment-02-random-user-api",
+  "version": "1.0.0",
+  "description": "Custom Random User API server for assignment 02",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "random-user"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shusky0o/assignment-01.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Shusky0o/assignment-01/issues"
+  },
+  "homepage": "https://github.com/Shusky0o/assignment-01#readme"
+}
